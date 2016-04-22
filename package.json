@@ -1,0 +1,23 @@
+{
+  "name": "bem-deps-object",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "bem",
+    "deps",
+    "bem-deps"
+  ],
+  "author": "Vasiliy Loginevskiy <yeti.or@gmail.com>",
+  "license": "MIT"
+}
