@@ -1,7 +1,7 @@
 var chai = require('chai');
 var expect = chai.expect;
 
-var removeEntity = require('../removeEntity').removeEntity;
+var removeEntity = require('../removeEntity');
 
 describe('basic', function() {
     it('should remove mustDeps', () => {

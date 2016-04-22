@@ -1,6 +1,3 @@
-var fs = require('fs');
-
-var through = require('through2');
 
 function removeEntityFromDep(entity, dep) {
     function removeElem(dep, elemName) {
@@ -69,13 +66,4 @@ function removeEntity(entity, bemDeps) {
     .filter(d => Object.keys(d).length);
 }
 
-function removeEntityStream(entity) {
-    return through.obj(function(file, enc, next) {
-        var deps = removeEntity(file.data, deps);
-		var depsString = '(' + JSON.stringify(deps, null, 4) + ');';
-		fs.writeFileSync(file.path, depsString);
-	});
-}
-
-module.exports = removeEntityStream;
-module.exports.removeEntity = removeEntity;
+module.exports = removeEntity;
