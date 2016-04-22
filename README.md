@@ -12,9 +12,6 @@ bem-deps-object
 [travis]:       https://travis-ci.org/yeti-or/bem-deps-object
 [test-img]:     https://img.shields.io/travis/yeti-or/bem-deps-object.svg?label=tests
 
-[appveyor]:     https://ci.appveyor.com/project/blond/bem-deps-object
-[appveyor-img]: http://img.shields.io/appveyor/ci/blond/bem-deps-object.svg?style=flat&label=windows
-
 [coveralls]:    https://coveralls.io/r/yeti-or/bem-deps-object
 [coverage-img]: https://img.shields.io/coveralls/yeti-or/bem-deps-object.svg
 
