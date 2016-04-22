@@ -8,10 +8,16 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
+    "istanbul": "^0.4.3",
+    "jscs": "^3.0.3",
+    "jshint": "^2.9.2",
     "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "npm run specs",
+    "specs": "mocha test",
+    "lint": "jshint . && jscs .",
+    "cover": "istanbul cover _mocha -- test"
   },
   "keywords": [
     "bem",
